@@ -1,6 +1,8 @@
 import styles from './page.module.scss';
+import packageFile from '../../../package.json';
 
 export default async function Index() {
+  const { version } = packageFile;
   /*
    * Replace the elements below with your own.
    *
@@ -31,7 +33,8 @@ export default async function Index() {
                 strokeWidth="2"
                 d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
               />
-            </svg>
+            </svg>{' '}
+            @ version {version}
           </p>
         </div>
       </div>
