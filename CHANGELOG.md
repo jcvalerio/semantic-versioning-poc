@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/jcvalerio/semantic-versioning-poc/compare/v1.0.0...v1.1.0) (2023-04-28)
+
+
+### Features
+
+* **app:** generate the next version on development do not update the package ([#16](https://github.com/jcvalerio/semantic-versioning-poc/issues/16)) ([5ce14bc](https://github.com/jcvalerio/semantic-versioning-poc/commit/5ce14bc53bb2fdf946118026e1bb6ac7bb9c261b))
+
 # 1.0.0 (2023-04-28)
 
 
