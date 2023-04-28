@@ -33,7 +33,6 @@ const plugins = [
 ];
 
 module.exports = {
-  branch: 'feature/poc-semantic-release',
   branches: ['main', 'develop'],
   plugins,
   tagFormat: 'v${version}',
