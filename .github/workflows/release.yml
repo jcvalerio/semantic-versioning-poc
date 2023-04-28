@@ -37,3 +37,7 @@ jobs:
 
       - name: Run Semantic Release
         run: npm run release
+
+      - name: Push commit change manually
+        run: |
+          git push --follow-tags origin main
